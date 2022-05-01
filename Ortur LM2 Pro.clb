@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightBurnLibrary>
+    <Material name="Acrylic">
+        <Entry Thickness="5.0000" Desc="cut">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Acrylic/5.0000/cut"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1.66667"/>
+                <priority Value="0"/>
+                <numPasses Value="3"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="engrave" NoThickTitle="Engrave">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Acrylic/Engrave/engrave"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="166.667"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Anodised Aluminium">
+        <Entry Thickness="-1.0000" Desc="engrave" NoThickTitle="Engrave">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Anodised Aluminium/Engrave/engrave"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="166.667"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Ceramic">
+        <Entry Thickness="-1.0000" Desc="engrave" NoThickTitle="Engrave">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Cobblestone/Engrave/engrave_copy"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1.66667"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Cobblestone">
+        <Entry Thickness="-1.0000" Desc="engrave" NoThickTitle="Engrave">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Acrylic/Engrave/engrave_copy"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1.66667"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Copper">
+        <Entry Thickness="-1.0000" Desc="engrave" NoThickTitle="Engrave">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Stainless Steel/Engrave/engrave_copy"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1.66667"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Leather">
+        <Entry Thickness="-1.0000" Desc="engrave" NoThickTitle="Engrave">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Leather/Engrave/engrave"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="166.667"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="0.7000" Desc="cut">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Leather/0.7000/cut"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="10"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Non-Woven Fabrics">
+        <Entry Thickness="0.5000" Desc="cut">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Non-Woven Fabrics/0.5000/cut"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="38.3333"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Paper">
+        <Entry Thickness="0.1000" Desc="cut">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Paper/0.1000/cut"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="66.6667"/>
+                <priority Value="0"/>
+                <numPasses Value="2"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="0.1000" Desc="engrave">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Paper/Engrave/engrave"/>
+                <maxPower Value="35"/>
+                <maxPower2 Value="20"/>
+                <speed Value="150"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="0.3000" Desc="cut">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Paper/0.3000/cut"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="16.6667"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="0.3000" Desc="engrave">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Paper/0.1000/engrave_copy"/>
+                <maxPower Value="70"/>
+                <maxPower2 Value="20"/>
+                <speed Value="150"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Paperboard">
+        <Entry Thickness="3.0000" Desc="cut">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Paperboard/3.0000/cut"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="5"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="engrave" NoThickTitle="Engrave">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Paperboard/Engrave/engrave"/>
+                <maxPower Value="40"/>
+                <maxPower2 Value="20"/>
+                <speed Value="150"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Pine Board">
+        <Entry Thickness="7.0000" Desc="cut">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Pine Board/7.0000/cut"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1.66667"/>
+                <priority Value="0"/>
+                <numPasses Value="2"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="9.0000" Desc="cut">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Pine Board/9.0000/cut"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1.66667"/>
+                <priority Value="0"/>
+                <numPasses Value="3"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="engrave" NoThickTitle="Engrave">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Pine Board/Engrave/engrave"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="166.667"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Plated Metal">
+        <Entry Thickness="-1.0000" Desc="engrave" NoThickTitle="Engrave">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Plated Metal/Engrave/engrave"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1.66667"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Plywood">
+        <Entry Thickness="2.8000" Desc="cut">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Plywood/2.8000/cut"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1.66667"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="engrave" NoThickTitle="Engrave">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Plywood/Engrave/engrave"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="166.667"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="1.6000" Desc="cut">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Plywood/1.6000/cut"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="5"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="4.0000" Desc="cut">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Plywood/4.0000/cut"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1.66667"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Powder Coated/Paint Sprayed Metal">
+        <Entry Thickness="-1.0000" Desc="engrave" NoThickTitle="Engrave">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Powder Coated/Paint Sprayed Metal/Engrave/engrave"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="166.667"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Some Plastic Sheet">
+        <Entry Thickness="-1.0000" Desc="cut" NoThickTitle="Cut">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Some Plastic Sheet/Cut/cut"/>
+                <maxPower Value="60"/>
+                <maxPower2 Value="20"/>
+                <speed Value="50"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Stainless Steel">
+        <Entry Thickness="-1.0000" Desc="engrave" NoThickTitle="Engrave">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Stainless Steel/Engrave/engrave"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1.66667"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+</LightBurnLibrary>
